@@ -1,0 +1,135 @@
+/* Navbar Colour Scheme */
+body {margin: 0; padding: 0;}
+
+  .navbar {
+    background-color: #000;
+  }
+
+  .navbar-brand img {
+    height: 150px; 
+    width: auto; 
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+  }
+
+  .navbar-dark .navbar-toggler:focus,
+  .navbar-dark .navbar-toggler:hover {
+    background-color: #fff;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border-color: #fff;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar-form {
+    display: flex;
+    align-items: right;
+  }
+
+  .form-inline .form-control {
+    
+    width: auto;
+  }
+
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    background-color: #42444E; 
+    display: none;
+}
+
+.dropdown-item {
+    color: #CFCFD0; }
+
+
+.dropdown-item:hover .dropdown-menu {
+    background-color: #6A6F81; 
+    display: block;
+}
+
+/* Features  Section */
+.featured-section {
+  background-color: #E1F1FC; 
+  padding: 15px; 
+  text-align: left;
+  border-radius: 10px;
+}
+
+.featured-text {
+  font-size: 24px; 
+  margin-left: 10px;
+  color: #9c9797;
+}
+
+.featured-images img {
+  max-width: 105%; 
+  margin-bottom: 10px; 
+  padding: 20px;
+  }
+
+  /* Latest Info Section */
+
+  .latest-info {
+    background-color: #ECECEC;
+    padding: 20px;
+    box-shadow: #000;
+    font-size: 24px; 
+    color: #962828;
+    border-radius: 10px;
+    }
+
+  .under-box {
+    background-color: #F5F5F5 ;
+    border-radius: 10px;
+    }
+
+  .under-box .card-title,
+  .under-box .card-text {
+    color: #6A6F81;
+    font-size: medium;
+  }
+  
+  .footer a.nav-link {
+    color: #6A6F81;
+    margin-bottom: 0;
+  }
+
+  .box {
+    width: 600px;
+    height: 600px;
+    background-color: #f0f0f0; 
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .box img {
+    max-width: 150%;
+    max-height: 100%; 
+    margin-bottom: 15px;
+  }
+
+
+.splash {
+  background-image: url(/images/Spectrasonics_team.jpg);
+  position: relative;
+  width: auto;
+  height: 541px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+
